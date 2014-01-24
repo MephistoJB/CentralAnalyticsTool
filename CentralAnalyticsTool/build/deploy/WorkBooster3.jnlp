@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="WorkBooster3.jnlp">
+  <information>
+    <title>WorkBooster3</title>
+    <vendor>Bechara</vendor>
+    <description>Sample JavaFX 2.0 application.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="WorkBooster3.jar" size="49401" download="eager" />
+    <jar href="libs/derby.jar" size="2831358" download="eager" />
+    <jar href="libs/eclipselink.jar" size="8613667" download="eager" />
+    <jar href="libs/javax.persistence.source_2.1.0.v201304241213.jar" size="260044" download="eager" />
+    <jar href="libs/javax.persistence_2.1.0.v201304241213.jar" size="162126" download="eager" />
+    <jar href="libs/junit.jar" size="245039" download="eager" />
+    <jar href="libs/org.hamcrest.core_1.3.0.v201303031735.jar" size="55802" download="eager" />
+  </resources>
+  <applet-desc  width="0" height="0" main-class="com.javafx.main.NoJavaFXFallback"  name="WorkBooster" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="0" height="0" main-class="WorkBooster.Main"  name="WorkBooster" />
+  <update check="background"/>
+</jnlp>
